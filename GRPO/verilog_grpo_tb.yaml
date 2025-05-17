@@ -1,0 +1,58 @@
+# Model Configuration
+model_name_or_path: "YOUR_MODEL_NAME"  # Replace with your specific model path
+model_revision: main
+torch_dtype: bfloat16
+attn_implementation: flash_attention_2
+use_peft: false  
+
+# Dataset Configuration
+dataset_name: Nellyw888/RTL-Coder_7b_reasoning_tb
+dataset_prompt_column: instruction
+dataset_train_split: train
+dataset_test_split: test
+system_prompt: |
+  You are a professional Verilog designer. Design the requested digital circuit or module with clear, efficient, and well-commented Verilog code. First, think through the design approach, considering the functionality, inputs, outputs, and implementation details. Then provide the complete Verilog code implementation. Respond in the following format: <think>
+  ...
+  </think>
+  <answer>
+  ```verilog
+  ...
+  ```
+  </answer>
+
+# Training Configuration
+bf16: true
+use_vllm: true
+vllm_gpu_memory_utilization: 0.6
+do_train: true
+do_eval: false
+gradient_accumulation_steps: 8
+gradient_checkpointing: true
+gradient_checkpointing_kwargs:
+  use_reentrant: false
+hub_model_id: "YOUR_HF_MODEL_ID"  # Replace with your HuggingFace model ID
+hub_strategy: every_save
+learning_rate: 1.0e-6  # Lowered to stabilize training
+log_completions: true
+log_level: info
+logging_first_step: true
+logging_steps: 1
+logging_strategy: steps
+max_prompt_length: 512
+max_completion_length: 1024
+max_steps: -1
+num_generations: 8
+temperature: 0.5
+repetition_penalty: 1.3
+num_train_epochs: 20
+output_dir: "YOUR_OUTPUT_DIRECTORY"  # Replace with your output path
+overwrite_output_dir: true
+per_device_eval_batch_size: 0
+per_device_train_batch_size: 2
+push_to_hub: true
+report_to:
+- wandb
+save_strategy: steps
+save_steps: 5  # Save more frequently
+save_total_limit: 30  # Keep more checkpoints
+seed: 42

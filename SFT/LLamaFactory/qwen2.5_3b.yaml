@@ -1,0 +1,35 @@
+### model
+model_name_or_path: Qwen/Qwen2.5-Coder-3B-Instruct
+
+### method
+stage: sft
+do_train: true
+finetuning_type: full
+deepspeed: ./scripts/deepspeed/ds_z3_offload_config.json
+
+### dataset
+dataset: RTL
+template: qwen
+cutoff_len: 2048
+# max_samples: 1000
+# overwrite_cache: true
+preprocessing_num_workers: 16
+
+### output
+output_dir: "YOUR_OUTPUT_DIRECTORY"  # Replace with your output path
+logging_steps: 10
+save_steps: 1000
+plot_loss: true
+save_only_model: true
+overwrite_output_dir: true
+
+### train
+per_device_train_batch_size: 8
+gradient_accumulation_steps: 4
+learning_rate: 1.0e-5
+num_train_epochs: 3.0
+lr_scheduler_type: cosine
+warmup_ratio: 0.1
+bf16: true
+ddp_timeout: 180000000
+~                                   
