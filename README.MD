@@ -10,7 +10,7 @@ This study introduces VeriReason, a novel approach utilizing reinforcement learn
 The model integrates explicit reasoning capabilities with reinforcement learning for Verilog generation, establishing a new state-of-the-art for automated RTL synthesis in a smaller model size. By using our curated high-quality training examples alongside a feedback-driven reward model, this 3B parameter model delivers exceptional performance on Verilog generation tasks while maintaining efficiency.
 
 <p align="center">
-  <img src="assets/Verireason_workflow.pdf" alt="VeriReason Workflow" width="400"/>
+  <img src="assets/Verireason_workflow.png" alt="VeriReason Workflow" width="400"/>
 </p>
 
 ## Training Options
