@@ -4,6 +4,11 @@ This repository contains tools and configurations for training language models f
 
 VeriReason: Reinforcement Learning with Testbench Feedback for Reasoning-Enhanced Verilog Generation
 
+## Project Description
+
+This study introduces VeriReason, a novel approach utilizing reinforcement learning with testbench feedback to enhance the performance of pre-trained models for Verilog RTL code generation. VeriReason-Qwen2.5-3B is a 3B parameter model based on Qwen2.5-Coder-3B that combines supervised fine-tuning with Guided Reward Proximal Optimization (GRPO) reinforcement learning, specifically tailored for RTL code generation.
+The model integrates explicit reasoning capabilities with reinforcement learning for Verilog generation, establishing a new state-of-the-art for automated RTL synthesis in a smaller model size. By using our curated high-quality training examples alongside a feedback-driven reward model, this 3B parameter model delivers exceptional performance on Verilog generation tasks while maintaining efficiency.
+
 ## Training Options
 
 ### Supervised Fine-Tuning (SFT)
