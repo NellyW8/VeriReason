@@ -59,16 +59,16 @@ The following datasets are available on Hugging Face:
 | RTL-Coder_7b_reasoning_tb | VeriReason hard dataset with reasoning and testbench | [Link](https://huggingface.co/datasets/Nellyw888/RTL-Coder_7b_reasoning_tb) |
 | RTL-Coder_7b_reasoning_tb_combined | VeriReason combined dataset with reasoning and testbench | [Link](https://huggingface.co/datasets/Nellyw888/RTL-Coder_7b_reasoning_tb_combined) |
 
-## Pre-trained Models
+## Model checkpoints
 
 The following fine-tuned models are available on Hugging Face:
 
 | Model | Description | Link |
 |-------|-------------|------|
 | VeriReason-Qwen2.5-1.5B | 1.5B parameter model based on Qwen2.5 | [Link](https://huggingface.co/Nellyw888/VeriReason-Qwen2.5-1.5B-grpo-small) |
-| VeriReason-Llama-7b | 7B parameter model based on Code Llama | [Link](https://huggingface.co/Nellyw888/VeriReason-Llama-7b-RTLCoder-GRPO-reasoning-tb) |
 | VeriReason-Qwen2.5-3B | 3B parameter model based on Qwen2.5 with RTL GRPO | [Link](https://huggingface.co/Nellyw888/VeriReason-Qwen2.5-3B-Verilog-RTL-GRPO-reasoning-tb/settings) |
 | VeriReason-Qwen2.5-7b | 7B parameter model based on Qwen2.5 with SFT Reasoning | [Link](https://huggingface.co/Nellyw888/VeriReason-Qwen2.5-7b-SFT-Reasoning) |
+| VeriReason-Llama-7b | 7B parameter model based on Code Llama | [Link](https://huggingface.co/Nellyw888/VeriReason-Llama-7b-RTLCoder-GRPO-reasoning-tb) |
 
 ## Requirements
 
