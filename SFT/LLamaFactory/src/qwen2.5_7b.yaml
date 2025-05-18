@@ -5,7 +5,7 @@ model_name_or_path: Qwen/Qwen2.5-Coder-7B-Instruct
 stage: sft
 do_train: true
 finetuning_type: full
-deepspeed: ./scripts/deepspeed/ds_z3_offload_config.json
+deepspeed: ./deepspeed/ds_z3_offload_config.json
 
 ### Dataset Configuration
 dataset: RTL_7b

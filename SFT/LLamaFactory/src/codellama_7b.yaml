@@ -5,7 +5,7 @@ model_name_or_path: codellama/CodeLlama-7b-Instruct-hf
 stage: sft
 do_train: true
 finetuning_type: full
-deepspeed: ./scripts/deepspeed/ds_z3_offload_config.json
+deepspeed: ./deepspeed/ds_z3_offload_config.json
 
 ### dataset
 dataset: RTL_7b
