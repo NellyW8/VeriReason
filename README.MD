@@ -6,6 +6,8 @@ This repository contains tools and configurations for training language models f
 
 https://arxiv.org/abs/2505.11849
 
+[huggingface repo](https://huggingface.co/collections/AI4EDA-CASE/verireason-682807825b20a863e758e51e)
+
 ## Project Description
 
 This study introduces VeriReason, a novel approach utilizing reinforcement learning with testbench feedback to enhance the performance of pre-trained models for Verilog RTL code generation. VeriReason-Qwen2.5-3B is a 3B parameter model based on Qwen2.5-Coder-3B that combines supervised fine-tuning with Guided Reward Proximal Optimization (GRPO) reinforcement learning, specifically tailored for RTL code generation.
