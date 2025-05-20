@@ -89,6 +89,7 @@ The following fine-tuned models are available on Hugging Face:
 - NCCL for distributed training
 
 ## Citation
+```bibtex
 @misc{wang2025verireasonreinforcementlearningtestbench,
       title={VeriReason: Reinforcement Learning with Testbench Feedback for Reasoning-Enhanced Verilog Generation}, 
       author={Yiting Wang and Guoheng Sun and Wanghao Ye and Gang Qu and Ang Li},
@@ -98,3 +99,4 @@ The following fine-tuned models are available on Hugging Face:
       primaryClass={cs.AI},
       url={https://arxiv.org/abs/2505.11849}, 
 }
+```
