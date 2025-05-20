@@ -2,7 +2,7 @@
 
 This repository contains tools and configurations for training language models for the paper: 
 
-VeriReason: Reinforcement Learning with Testbench Feedback for Reasoning-Enhanced Verilog Generation https://arxiv.org/abs/2505.11849
+[VeriReason: Reinforcement Learning with Testbench Feedback for Reasoning-Enhanced Verilog Generation](https://arxiv.org/abs/2505.11849) https://arxiv.org/abs/2505.11849
 
 ## Project Description
 
