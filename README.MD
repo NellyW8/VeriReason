@@ -2,7 +2,7 @@
 
 This repository contains tools and configurations for training language models for the paper: 
 
-VeriReason: Reinforcement Learning with Testbench Feedback for Reasoning-Enhanced Verilog Generation
+[VeriReason: Reinforcement Learning with Testbench Feedback for Reasoning-Enhanced Verilog Generation] (https://arxiv.org/abs/2505.11849)
 
 ## Project Description
 
@@ -85,3 +85,14 @@ The following fine-tuned models are available on Hugging Face:
 - PyTorch with CUDA support
 - Accelerate library
 - NCCL for distributed training
+
+## Citation
+@misc{wang2025verireasonreinforcementlearningtestbench,
+      title={VeriReason: Reinforcement Learning with Testbench Feedback for Reasoning-Enhanced Verilog Generation}, 
+      author={Yiting Wang and Guoheng Sun and Wanghao Ye and Gang Qu and Ang Li},
+      year={2025},
+      eprint={2505.11849},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2505.11849}, 
+}
