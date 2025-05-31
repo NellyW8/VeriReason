@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nellyw8.github.io/VeriReason/sitemap.xml
