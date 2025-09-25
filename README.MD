@@ -2,9 +2,6 @@
 
 This repository contains tools and configurations for training language models for the paper: 
 
-[VeriReason: Reinforcement Learning with Testbench Feedback for Reasoning-Enhanced Verilog Generation](https://arxiv.org/abs/2505.11849) 
-
-Our Hugging face models and dataset: [huggingface repo](https://huggingface.co/collections/AI4EDA-CASE/verireason-682807825b20a863e758e51e)
 
 ## Project Description
 
